@@ -1,0 +1,467 @@
+header{
+  background-image: url(../img/Resonance_phone.png);
+  position: no-repeat;
+  width: 102%;
+  height: 725px;
+}
+
+
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+
+
+a{
+   text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline blue;
+}
+
+h3{
+   height: 20%;
+   width: 20%;
+}
+
+.full-width {
+  position: relative;
+  top: 15px;
+  width: 100%;
+  background: #ccc;
+  background-color: rgb(102,45,145);
+  z-index: 1;
+}
+
+.wrap {
+
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  -webkit-text-stroke: 3px black;
+  position: relative;
+  font-size: 80px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  height: 55px;
+  width: auto;
+  max-width: 24em;
+  margin: 0 auto;
+  padding: 0.25em 0.625em;
+  bottom: 40px;
+  right: 70px;
+}
+
+h2{
+padding-left: 20px;
+padding-top: 10px;
+line-height: 25px;
+}
+
+
+#Recent{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  text-decoration: none;
+  z-index: 3;
+}
+
+#rectangle{
+  position: relative;
+  bottom: 570px;
+  left: 35px;
+    width: 330px;
+    height: 330px;
+    background: white;
+    border-radius: 14px;
+    z-index: 2;
+    clear: left;
+}
+
+#Popular{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  text-decoration: none;
+  z-index: 3;
+}
+
+#Resume{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  text-decoration: none;
+  z-index: 3;
+}
+
+#Graphics{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  text-decoration: none;
+  z-index: 3;
+
+}
+
+#card{
+
+   display: inline-block;
+   position: relative;
+   float: left;
+   bottom: 898px;
+   left: 400px;
+   z-index: 3;
+}
+
+#text{
+
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  position: relative;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  width: 500px;
+  bottom: 260px;
+  left: 490px;
+  -webkit-text-stroke: 1px black;
+
+}
+
+#foot{
+  position: relative;
+  bottom: 465px;
+  height: 80px;
+  width: 102%;
+  background-color: rgb(102,45,145);
+  z-index: 1;
+}
+
+
+#About{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 45px;
+  color: white;
+  word-spacing: 100px;
+  text-decoration: none;
+  position: absolute;
+  bottom: -113px;
+  left: 395px;
+  z-index: 3;
+  color: white;
+  -webkit-text-stroke: 2px black;
+
+}
+
+#Contact{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 45px;
+  color: white;
+  word-spacing: 100px;
+  text-decoration: none;
+  position: absolute;
+  bottom: 10px;
+  left: 850px;
+  z-index: 3;
+  color: white;
+  -webkit-text-stroke: 2px black;
+}
+
+
+@media screen and (max-width: 768px){
+
+  .full-width {
+  position: relative;
+  top: 15px;
+  width: 100%;
+  background: #ccc;
+  background-color: rgb(102,45,145);
+  z-index: 1;
+}
+
+  .wrap {
+    
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    -webkit-text-stroke: 1px black;
+    position: relative;
+    font-size: 3.9em;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    height: 50px;
+    width: auto;
+    max-width: 24em;
+    margin: 0 auto;
+    padding: 0.25em 0.625em;
+    bottom: 22px;
+    left: -6px;
+  }
+
+  .hidden{
+    overflow: hidden;
+    position: relative;
+  }
+
+  #rectangle{
+    position: relative;
+    bottom: 635px;
+    left: 35px;
+      width: 220px;
+      height: 400px;
+      background: white;
+      border-radius: 14px;
+      z-index: 2;
+  }
+
+  #Recent{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-decoration: none;
+
+    z-index: 3;
+  }
+
+  #Popular{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-decoration: none;
+    z-index: 3;
+  }
+
+  #Resume{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-decoration: none;
+    z-index: 3;
+  }
+
+  #card{
+
+   display: inline-block;
+   position: relative;
+   float: left;
+   bottom: 1033px;
+   left: 268px;
+   z-index: 3;
+}
+
+#text{
+
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  position: relative;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  width: 500px;
+  bottom: 35px;
+  left: 15px;
+  -webkit-text-stroke: 1px black;
+
+}
+
+  #foot{
+    position: relative;
+    bottom: 516px;
+    height: 60px;
+    width: 110%;
+    background-color: rgb(102,45,145);
+    z-index: 1;
+  }
+
+  #About{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  color: white;
+  word-spacing: 100px;
+  text-decoration: none;
+  position: relative;
+  bottom: 993px;
+  left: 200px;
+  z-index: 3;
+  color: white;
+  -webkit-text-stroke: 2px black;
+
+}
+
+#Contact{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  color: white;
+  word-spacing: 100px;
+  text-decoration: none;
+  position: relative;
+  bottom: 1092px;
+  left: 450px;
+  z-index: 3;
+  color: white;
+  -webkit-text-stroke: 2px black;
+}
+
+  h2{
+  padding-left: 20px;
+  padding-top: 10px;
+  line-height: 50px;
+  } 
+
+}
+
+@media screen and (max-width: 426px){
+
+  .full-width {
+  position: relative;
+  top: 15px;
+  width: 100%;
+  background: #ccc;
+  background-color: rgb(102,45,145);
+  z-index: 1;
+}
+
+.wrap {
+  
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  -webkit-text-stroke: 1px black;
+  position: relative;
+  font-size: 3em;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  height: 50px;
+  width: auto;
+  max-width: 24em;
+  margin: 0 auto;
+  padding: 0.25em 0.625em;
+  bottom: 8px;
+  left: -6px;
+}
+
+.hidden{
+  overflow: hidden;
+  position: relative;
+}
+
+#rectangle{
+  position: relative;
+  bottom: 635px;
+  left: 35px;
+    width: 330px;
+    height: 330px;
+    background: white;
+    border-radius: 14px;
+    z-index: 2;
+}
+
+#Recent{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  text-decoration: none;
+
+  z-index: 3;
+}
+
+#Popular{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  text-decoration: none;
+  z-index: 3;
+}
+
+#Resume{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  text-decoration: none;
+  z-index: 3;
+}
+
+#card{
+
+   display: inline-block;
+   position: relative;
+   float: left;
+   bottom: 758px;
+   left: -50px;
+     transform: scale(.45, .45);
+-ms-transform: scale(.45, .45);
+-webkit-transform: scale(.45, .45);
+   z-index: 3;
+}
+
+#text{
+
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  position: relative;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  width: 500px;
+  bottom: 10px;
+  left: 15px;
+  -webkit-text-stroke: 1px black;
+
+}
+
+
+#foot{
+  position: relative;
+  bottom: 428px;
+  height: 35px;
+  width: 110%;
+  background-color: rgb(102,45,145)
+  z-index: 1;
+}
+
+
+  #About{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  word-spacing: 100px;
+  text-decoration: none;
+  position: absolute;
+  bottom: -122px;
+  left: 70px;
+  z-index: 3;
+  color: white;
+  -webkit-text-stroke: 1px black;
+
+}
+
+#Contact{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  word-spacing: 100px;
+  text-decoration: none;
+  position: absolute;
+  bottom: 13px;
+  left: 250px;
+  z-index: 3;
+  color: white;
+  -webkit-text-stroke: 1px black;
+
+}
+
+h2{
+padding-left: 20px;
+padding-top: 10px;
+line-height: 25px;
+}
